@@ -55,8 +55,8 @@ public class ScreenshotTests {
     }
 
     /**
-     * !!This code block is just an example only!! !!Real-world implemention would
-     * require capturing a screenshot!!
+     * !!This code block is just an example only!! 
+     * !!Real-world implementation would require capturing a screenshot!!
      * 
      * @return Image path
      * @throws IOException
