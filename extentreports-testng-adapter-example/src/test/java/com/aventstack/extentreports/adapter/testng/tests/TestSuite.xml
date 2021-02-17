@@ -1,0 +1,13 @@
+<suite name="Sample Tests" verbose="10" thread-count="5" parallel="tests">
+    <listeners>
+        <listener class-name="com.aventstack.extentreports.testng.listener.ExtentITestListenerClassAdapter"/>
+    </listeners>
+
+    <test name="Sample Tests" preserve-order="true">
+        <classes>
+            <class name="com.aventstack.extentreports.adapter.testng.tests.DataProviderTests"/>
+            <class name="com.aventstack.extentreports.adapter.testng.tests.ScreenshotTests"/>
+            <class name="com.aventstack.extentreports.adapter.testng.tests.SimpleAssertTests"/>
+        </classes>
+    </test>
+</suite>
