@@ -24,7 +24,7 @@ public class ScreenshotTests {
 
     // Using the same OUTPUT_PATH as set in extent.properties
     // [extent.reporter.html.out]
-    private static final String OUTPUT_PATH = "test-output/HtmlReport/";
+    private static final String OUTPUT_PATH = "test-output/SparkReport/";
 
     @Test
     public void passTest() {
